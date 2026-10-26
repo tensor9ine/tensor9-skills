@@ -1,0 +1,105 @@
+# External-service considerations
+
+Generated from the canonical public onboarding catalog. This is bundled reference knowledge, not vendor answers.
+Catalog version: 1.0.0; schema: 1.
+Catalog SHA-256: b721b72d26ffc5699157cf1b6f61ae4989ce073c94a19792e839991a07565828.
+Read `latest.json` and `1.0.0/catalog.json` in this directory.
+A service-name match is a candidate. Trace real callers and conditions, then ask the vendor about behavior and account ownership.
+Do not infer approval, remove application code, read credentials or create elide annotations from catalog guidance.
+
+- `airbyte-cloud` — Airbyte Cloud (DataPipeline); /byoc/onboarding/external-services
+- `algolia` — Algolia (HostedData); /byoc/onboarding/external-services
+- `amazon-bedrock` — Amazon Bedrock (Ai); /byoc/onboarding/external-services
+- `amazon-ses` — Amazon SES (Messaging); /byoc/onboarding/external-services
+- `amplitude` — Amplitude (Analytics); /byoc/onboarding/external-services
+- `anthropic` — Anthropic (Ai); /byoc/onboarding/external-services
+- `auth0` — Auth0 (Identity); /byoc/onboarding/external-services
+- `axiom` — Axiom (Observability); /byoc/onboarding/external-services
+- `azure-openai` — Azure OpenAI (Ai); /byoc/onboarding/external-services
+- `bigquery` — BigQuery (DataPipeline); /byoc/onboarding/external-services
+- `chargebee` — Chargebee (Billing); /byoc/onboarding/external-services
+- `clerk` — Clerk (Identity); /byoc/onboarding/external-services
+- `clickhouse-cloud` — ClickHouse Cloud (DataPipeline); /byoc/onboarding/external-services
+- `cloudflare` — Cloudflare (HostingDelivery); /byoc/onboarding/external-services
+- `cohere` — Cohere (Ai); /byoc/onboarding/external-services
+- `configcat` — ConfigCat (FeatureConfiguration); /byoc/onboarding/external-services
+- `confluent-cloud` — Confluent Cloud (HostedData); /byoc/onboarding/external-services
+- `crowdstrike-falcon` — CrowdStrike Falcon (SecuritySecrets); /byoc/onboarding/external-services
+- `databricks` — Databricks (DataPipeline); /byoc/onboarding/external-services
+- `datadog` — Datadog (Observability); /byoc/onboarding/external-services
+- `dbt-cloud` — dbt Cloud (DataPipeline); /byoc/onboarding/external-services
+- `doppler` — Doppler (SecuritySecrets); /byoc/onboarding/external-services
+- `dynatrace` — Dynatrace (Observability); /byoc/onboarding/external-services
+- `elastic-cloud` — Elastic Cloud (HostedData); /byoc/onboarding/external-services
+- `fastly` — Fastly (HostingDelivery); /byoc/onboarding/external-services
+- `firebase-authentication` — Firebase Authentication (Identity); /byoc/onboarding/external-services
+- `firebase-cloud-messaging` — Firebase Cloud Messaging (Messaging); /byoc/onboarding/external-services
+- `firebase-remote-config` — Firebase Remote Config (FeatureConfiguration); /byoc/onboarding/external-services
+- `fivetran` — Fivetran (DataPipeline); /byoc/onboarding/external-services
+- `fly-io` — Fly.io (HostingDelivery); /byoc/onboarding/external-services
+- `google-analytics` — Google Analytics (Analytics); /byoc/onboarding/external-services
+- `grafana-cloud` — Grafana Cloud (Observability); /byoc/onboarding/external-services
+- `growthbook` — GrowthBook (FeatureConfiguration); /byoc/onboarding/external-services
+- `hcp-vault` — HCP Vault (SecuritySecrets); /byoc/onboarding/external-services
+- `heap` — Heap (Analytics); /byoc/onboarding/external-services
+- `heroku` — Heroku (HostingDelivery); /byoc/onboarding/external-services
+- `honeycomb` — Honeycomb (Observability); /byoc/onboarding/external-services
+- `hotjar` — Hotjar (Analytics); /byoc/onboarding/external-services
+- `hugging-face-inference` — Hugging Face Inference (Ai); /byoc/onboarding/external-services
+- `incident-io` — incident.io (IncidentSupport); /byoc/onboarding/external-services
+- `infisical` — Infisical (SecuritySecrets); /byoc/onboarding/external-services
+- `intercom` — Intercom (IncidentSupport); /byoc/onboarding/external-services
+- `keycloak` — Keycloak (Identity); /byoc/onboarding/external-services
+- `lacework` — Lacework (legacy/product aliases to verify) (SecuritySecrets); /byoc/onboarding/external-services
+- `lago` — Lago (Billing); /byoc/onboarding/external-services
+- `langfuse` — Langfuse (Ai); /byoc/onboarding/external-services
+- `launchdarkly` — LaunchDarkly (FeatureConfiguration); /byoc/onboarding/external-services
+- `mailgun` — Mailgun (Messaging); /byoc/onboarding/external-services
+- `metronome` — Metronome (Billing); /byoc/onboarding/metronome
+- `microsoft-teams` — Microsoft Teams (IncidentSupport); /byoc/onboarding/external-services
+- `mistral-api` — Mistral API (Ai); /byoc/onboarding/external-services
+- `mixpanel` — Mixpanel (Analytics); /byoc/onboarding/external-services
+- `mongodb-atlas` — MongoDB Atlas (HostedData); /byoc/onboarding/external-services
+- `motherduck` — MotherDuck (DataPipeline); /byoc/onboarding/external-services
+- `netlify` — Netlify (HostingDelivery); /byoc/onboarding/external-services
+- `new-relic` — New Relic (Observability); /byoc/onboarding/external-services
+- `okta` — Okta (Identity); /byoc/onboarding/external-services
+- `onepassword-connect` — 1Password Connect (SecuritySecrets); /byoc/onboarding/external-services
+- `openai` — OpenAI (Ai); /byoc/onboarding/external-services
+- `openmeter` — OpenMeter (Billing); /byoc/onboarding/external-services
+- `opsgenie` — Opsgenie (legacy recognition) (IncidentSupport); /byoc/onboarding/external-services
+- `optimizely-feature-experimentation` — Optimizely Feature Experimentation (FeatureConfiguration); /byoc/onboarding/external-services
+- `orb` — Orb (Billing); /byoc/onboarding/external-services
+- `paddle` — Paddle (Billing); /byoc/onboarding/external-services
+- `pagerduty` — PagerDuty (IncidentSupport); /byoc/onboarding/external-services
+- `pinecone` — Pinecone (HostedData); /byoc/onboarding/external-services
+- `posthog` — PostHog (Analytics); /byoc/onboarding/external-services
+- `postmark` — Postmark (Messaging); /byoc/onboarding/external-services
+- `qdrant-cloud` — Qdrant Cloud (HostedData); /byoc/onboarding/external-services
+- `railway` — Railway (HostingDelivery); /byoc/onboarding/external-services
+- `recurly` — Recurly (Billing); /byoc/onboarding/external-services
+- `redis-cloud` — Redis Cloud (HostedData); /byoc/onboarding/external-services
+- `render` — Render (HostingDelivery); /byoc/onboarding/external-services
+- `resend` — Resend (Messaging); /byoc/onboarding/external-services
+- `rootly` — Rootly (IncidentSupport); /byoc/onboarding/external-services
+- `rudderstack` — RudderStack (Analytics); /byoc/onboarding/external-services
+- `segment` — Segment (Analytics); /byoc/onboarding/external-services
+- `sendgrid` — SendGrid (Messaging); /byoc/onboarding/external-services
+- `sentry` — Sentry (Observability); /byoc/onboarding/external-services
+- `slack` — Slack (IncidentSupport); /byoc/onboarding/external-services
+- `snowflake` — Snowflake (DataPipeline); /byoc/onboarding/external-services
+- `snyk` — Snyk (SecuritySecrets); /byoc/onboarding/external-services
+- `split` — Split (FeatureConfiguration); /byoc/onboarding/external-services
+- `splunk-observability` — Splunk Observability (Observability); /byoc/onboarding/external-services
+- `statsig` — Statsig (FeatureConfiguration); /byoc/onboarding/external-services
+- `stripe` — Stripe (Billing); /byoc/onboarding/stripe
+- `stytch` — Stytch (Identity); /byoc/onboarding/external-services
+- `supabase-auth` — Supabase Auth (Identity); /byoc/onboarding/external-services
+- `twilio` — Twilio (Messaging); /byoc/onboarding/external-services
+- `unleash` — Unleash (FeatureConfiguration); /byoc/onboarding/external-services
+- `vercel` — Vercel (HostingDelivery); /byoc/onboarding/external-services
+- `vonage` — Vonage (Messaging); /byoc/onboarding/external-services
+- `weaviate-cloud` — Weaviate Cloud (HostedData); /byoc/onboarding/external-services
+- `wiz` — Wiz (SecuritySecrets); /byoc/onboarding/external-services
+- `workos` — WorkOS (Identity); /byoc/onboarding/external-services
+- `zendesk` — Zendesk (IncidentSupport); /byoc/onboarding/external-services

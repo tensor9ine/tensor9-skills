@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "repository": "tensor9ine/tensor9-skills",
+  "upstreamSource": {
+    "baseRevision": "6dbaa74ddebea2a771bf1bb5d7da7a28574e18e5",
+    "reviewedOverlay": "Public CLI installation guidance and skill references; exact resource hashes below",
+    "upstreamPublicationStatus": "Base revision plus reviewed working-source overlay; no claim that the overlay is already published upstream"
+  },
+  "qualification": {
+    "status": "InProgress",
+    "methodology": "Native agents in isolated cloud-build cleanroom environments using the public package, including a missing-CLI installation case",
+    "nativeCasesPassed": 0,
+    "localEvidenceScope": "Package preparation, integrity and static checks only"
+  },
+  "catalog": {
+    "schemaVersion": 1,
+    "version": "1.0.0",
+    "sha256": "b721b72d26ffc5699157cf1b6f61ae4989ce073c94a19792e839991a07565828",
+    "byteCount": 411473,
+    "considerationCount": 96
+  },
+  "resourceManifestHashFormat": "SHA-256 of UTF-8 concatenation of relative path + NUL + resource SHA-256 + LF, sorted by relative path",
+  "packages": [
+    {
+      "provider": "codex",
+      "path": "codex/skills/tensor9-byoc-onboarding",
+      "resourceCount": 8,
+      "resourceManifestSha256": "f8bf735265933be97375ac9591b579bd268ca3b5a3b09181eba1a36f734e46a5",
+      "resources": [
+        {
+          "path": "SKILL.md",
+          "sha256": "11eba238332f519a88801f8743937dc0a9bb4deed494edb01bfbddc3df40e453",
+          "byteCount": 21935
+        },
+        {
+          "path": "references/common-terraform-mistakes.md",
+          "sha256": "d6fdf43a9ebf61cf8425e69b06eca1a5dfab6b0aaf966dc6791f3d270eac3f22",
+          "byteCount": 21197
+        },
+        {
+          "path": "references/considerations-usage.md",
+          "sha256": "1ee283e1fb20b3957366b62e88afac8b3dfd9a42add14c9fa71a6f02056f62a4",
+          "byteCount": 7153
+        },
+        {
+          "path": "references/considerations/1.0.0/catalog.json",
+          "sha256": "b721b72d26ffc5699157cf1b6f61ae4989ce073c94a19792e839991a07565828",
+          "byteCount": 411473
+        },
+        {
+          "path": "references/considerations/index.md",
+          "sha256": "5b7c677b57aeeb06af2d94ef0345c6c31b93c77a3a7e8489d62c95e3fec252f6",
+          "byteCount": 8223
+        },
+        {
+          "path": "references/considerations/latest.json",
+          "sha256": "6d7a95dc65ad61d30925b1f5a121c3fcf963de62899c764c0bb901df53afaae3",
+          "byteCount": 175
+        },
+        {
+          "path": "references/install-tensor9-cli.md",
+          "sha256": "4da810bbcca06273c997d241ca8fdc3618954add8b918bff190697d86929f59c",
+          "byteCount": 6524
+        },
+        {
+          "path": "scripts/load_considerations.py",
+          "sha256": "ded83ecf6ee0de0570c55f7fc529016a13555b5cff1d4a606efe0175eccf5f70",
+          "byteCount": 27192
+        }
+      ]
+    },
+    {
+      "provider": "claude",
+      "path": "claude/skills/tensor9-byoc-onboarding",
+      "resourceCount": 8,
+      "resourceManifestSha256": "0104f29d343f6796e8299ce21d9bcb9271c861b1391ede5208038ac7d4781030",
+      "resources": [
+        {
+          "path": "SKILL.md",
+          "sha256": "682a7a65d37ac4df2656bc379546e9542647631fb3792c2316b95eae53a16f53",
+          "byteCount": 22117
+        },
+        {
+          "path": "references/common-terraform-mistakes.md",
+          "sha256": "d6fdf43a9ebf61cf8425e69b06eca1a5dfab6b0aaf966dc6791f3d270eac3f22",
+          "byteCount": 21197
+        },
+        {
+          "path": "references/considerations-usage.md",
+          "sha256": "1ee283e1fb20b3957366b62e88afac8b3dfd9a42add14c9fa71a6f02056f62a4",
+          "byteCount": 7153
+        },
+        {
+          "path": "references/considerations/1.0.0/catalog.json",
+          "sha256": "b721b72d26ffc5699157cf1b6f61ae4989ce073c94a19792e839991a07565828",
+          "byteCount": 411473
+        },
+        {
+          "path": "references/considerations/index.md",
+          "sha256": "5b7c677b57aeeb06af2d94ef0345c6c31b93c77a3a7e8489d62c95e3fec252f6",
+          "byteCount": 8223
+        },
+        {
+          "path": "references/considerations/latest.json",
+          "sha256": "6d7a95dc65ad61d30925b1f5a121c3fcf963de62899c764c0bb901df53afaae3",
+          "byteCount": 175
+        },
+        {
+          "path": "references/install-tensor9-cli.md",
+          "sha256": "4da810bbcca06273c997d241ca8fdc3618954add8b918bff190697d86929f59c",
+          "byteCount": 6524
+        },
+        {
+          "path": "scripts/load_considerations.py",
+          "sha256": "ded83ecf6ee0de0570c55f7fc529016a13555b5cff1d4a606efe0175eccf5f70",
+          "byteCount": 27192
+        }
+      ]
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "sha256": "95173792c835cf171c14ea6d47ed33d9faa43ad8df405d8fdae2223d910a435a",
+    "byteCount": 3693
+  }
+}
