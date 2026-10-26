@@ -105,7 +105,7 @@ fails, retain the error and any recovery paths reported by the installer; do not
 installation lock or recovery directory automatically. Remove only the temporary installer file
 and its temporary directory when they are no longer needed.
 
-## Verify, then return to onboarding
+## Verify, then return to your BYOC task
 
 Check the installed CLI and whether this version exposes the catalog command:
 

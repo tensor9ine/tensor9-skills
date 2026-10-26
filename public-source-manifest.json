@@ -25,7 +25,7 @@
       "provider": "codex",
       "path": "codex/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "d8bd1885cce3a5e3de0aa1b07376c1b14ceee576977ebf7019f8b092a849089b",
+      "resourceManifestSha256": "ace4962d1e4fccd53455243d77e70a92b45c9719757411bb39e03fbbff91d99a",
       "resources": [
         {
           "path": "SKILL.md",
@@ -59,8 +59,8 @@
         },
         {
           "path": "references/install-tensor9-cli.md",
-          "sha256": "4da810bbcca06273c997d241ca8fdc3618954add8b918bff190697d86929f59c",
-          "byteCount": 6524
+          "sha256": "49630c0724e0439fe0d17c83b2dd4d41557bd91a4ee1d857f1a152b0597b1dc0",
+          "byteCount": 6528
         },
         {
           "path": "scripts/load_considerations.py",
@@ -73,7 +73,7 @@
       "provider": "claude",
       "path": "claude/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "0a824bcc9bfae4449997fd9574cf922ffe340fd353be751e526ea0224805b237",
+      "resourceManifestSha256": "533678f62f2c4b2b38223eb24948e207165dd748d55c375dbf56e07c8f43571c",
       "resources": [
         {
           "path": "SKILL.md",
@@ -107,8 +107,8 @@
         },
         {
           "path": "references/install-tensor9-cli.md",
-          "sha256": "4da810bbcca06273c997d241ca8fdc3618954add8b918bff190697d86929f59c",
-          "byteCount": 6524
+          "sha256": "49630c0724e0439fe0d17c83b2dd4d41557bd91a4ee1d857f1a152b0597b1dc0",
+          "byteCount": 6528
         },
         {
           "path": "scripts/load_considerations.py",
