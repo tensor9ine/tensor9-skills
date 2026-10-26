@@ -2,9 +2,10 @@
   "schemaVersion": 1,
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
-    "baseRevision": "6dbaa74ddebea2a771bf1bb5d7da7a28574e18e5",
-    "reviewedOverlay": "Public CLI installation guidance, tensor9-byoc naming and customer lifecycle discovery; exact resource hashes below",
-    "upstreamPublicationStatus": "Base revision plus reviewed working-source overlay; no claim that the overlay is already published upstream"
+    "repository": "tensor9ine/Prime",
+    "baseRevision": "795fdc9239297ca7bd33ab183b70a1acb8c42375",
+    "reviewedOverlay": "None: every packaged resource matches this published source revision byte for byte",
+    "upstreamPublicationStatus": "Published source only. Native behavioral qualification remains InProgress."
   },
   "qualification": {
     "status": "InProgress",
