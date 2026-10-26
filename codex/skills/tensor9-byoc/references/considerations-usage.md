@@ -70,6 +70,15 @@ analytics, support, AI services and data operations. Query individual IDs progre
 Track applicable entries with actual file/block/call evidence; mark irrelevant ones
 with a reason and uncertain ones open. A service-name match alone proves no dependency.
 
+Before reporting no catalog entry, run a literal index/search query for the canonical service name and relevant aliases.
+Distinguish not queried, no matching entry, a candidate whose usage relevance is unverified,
+and an entry found irrelevant after tracing its actual consumer.
+Report no matching entry only after a completed, nontruncated or appropriately narrowed query;
+query errors, unavailable results and unqueried aliases remain unknown.
+Use the returned ID/title and report the actual query, catalog version and digest;
+never label a found entry absent or repeat an earlier unsupported absence claim.
+Catalog presence does not establish vendor approval.
+
 Follow each relevant integration through secrets/configuration into actual consumers:
 SDK construction and import, startup, signup and organization creation, migrations and
 required reference rows, delayed jobs, retries, webhooks, usage events and entitlements.

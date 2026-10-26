@@ -3,15 +3,132 @@
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
     "repository": "tensor9ine/Prime",
-    "baseRevision": "795fdc9239297ca7bd33ab183b70a1acb8c42375",
+    "baseRevision": "9fe2bc8ba61dcdf15433dd8ec94be4c551e0281e",
     "reviewedOverlay": "None: every packaged resource matches this published source revision byte for byte",
     "upstreamPublicationStatus": "Published source only. Native behavioral qualification remains InProgress."
   },
   "qualification": {
     "status": "InProgress",
-    "methodology": "Native agents in isolated cloud-build cleanroom environments using the public package, including a missing-CLI installation case",
-    "nativeCasesPassed": 0,
-    "localEvidenceScope": "Package preparation, integrity and static checks only"
+    "methodology": "Actual native agents in isolated cloud-build cleanrooms; named evidence scopes do not imply overall qualification",
+    "nativeProviders": [
+      {
+        "provider": "Codex",
+        "cliVersion": "0.164.0",
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high"
+      },
+      {
+        "provider": "Claude Code",
+        "cliVersion": "2.1.310",
+        "model": "claude-sonnet-5-5",
+        "requestedEffort": "high",
+        "effectiveReasoningEffort": "Not independently confirmed"
+      }
+    ],
+    "namedCaseEvidence": [
+      {
+        "scope": "Native skill discovery; questions before edits; accepted annotations, unknown answers and declined choices",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "Pass"
+      },
+      {
+        "scope": "count/for_each optional resources: four expression errors and two guards",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "Pass"
+      },
+      {
+        "scope": "Stale approval handling",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "Pass"
+      },
+      {
+        "scope": "Public CLI installation with the corrected installation guidance",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "Pass"
+      },
+      {
+        "scope": "Accepted source decisions and repair preview before mutation with the corrected guidance",
+        "providers": [
+          "Codex"
+        ],
+        "result": "Pass"
+      },
+      {
+        "scope": "Accepted source decisions and repair preview before mutation with the corrected guidance",
+        "providers": [
+          "Claude Code"
+        ],
+        "result": "PassWithExplicitUnfinishedDependency",
+        "limit": "One approved storage edit remains unfinished because its dependent change was not approved"
+      },
+      {
+        "scope": "Privacy behavior against frozen evaluator expectations",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "Pass"
+      },
+      {
+        "scope": "Catalog mapping report accuracy with the corrected usage reference: canonical-name and alias queries distinguish entries from unverified relevance without source edits",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "Pass"
+      }
+    ],
+    "remainingQualification": [
+      {
+        "scope": "Actual live controller catalog refresh and cache evolution",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "status": "Unqualified",
+        "reason": "The existing Sandbox tenant expired; native metadata requests ended with EOF and the normal connection code expired. Awaiting a fresh operator-provided connection code."
+      },
+      {
+        "scope": "Final goal acceptance, checklist closure and qualification publication",
+        "status": "Incomplete"
+      }
+    ],
+    "localEvidenceScope": "Current loader and packaging suite: 68 tests passed (55 loader, 13 packaging). Packaging instruction contracts do not establish native behavior.",
+    "verificationSource": {
+      "repository": "tensor9ine/Prime",
+      "path": "src/main/kotlin/t9/ai/projects/active/plans/byocselfserve/ByocOnboardingSkillsQualification_2026_10_26.kt",
+      "revisionSource": "upstreamSource.baseRevision"
+    },
+    "verificationSummary": {
+      "focusedKotlinTests": {
+        "passed": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "loaderAndPackagingPythonTests": {
+        "passed": 68,
+        "warnings": 0
+      },
+      "qualificationHelperTests": {
+        "passed": 21,
+        "skipped": 1,
+        "skipReason": "GNU tar/gzip interop unavailable on the local host"
+      }
+    },
+    "sourceRuntimeEvidenceLimit": "Source changes and bounded native assistance behavior are qualified only in the named scopes above; application runtime and deployment behavior are unverified."
   },
   "catalog": {
     "schemaVersion": 1,
@@ -26,12 +143,12 @@
       "provider": "codex",
       "path": "codex/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "ace4962d1e4fccd53455243d77e70a92b45c9719757411bb39e03fbbff91d99a",
+      "resourceManifestSha256": "c48ee74109dd7ecb9558c660afce83a215fdc7daa3583d55ca8e2707f97adf5c",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "759fa1273ec7b8c183973f0f9569b6b8f4a8e4b5f54e996c7b1f4cfe6f5307b8",
-          "byteCount": 22392
+          "sha256": "257c33d52d9879c4c2a39a9497c68a9244e12df00662ee73870c2dd7453d425a",
+          "byteCount": 23567
         },
         {
           "path": "references/common-terraform-mistakes.md",
@@ -40,8 +157,8 @@
         },
         {
           "path": "references/considerations-usage.md",
-          "sha256": "1ee283e1fb20b3957366b62e88afac8b3dfd9a42add14c9fa71a6f02056f62a4",
-          "byteCount": 7153
+          "sha256": "404f7ccde3f8b411cb46948ab6f6382050a7a2afa9ca31668a6ed5e8a4a8c4e3",
+          "byteCount": 7817
         },
         {
           "path": "references/considerations/1.0.0/catalog.json",
@@ -74,12 +191,12 @@
       "provider": "claude",
       "path": "claude/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "533678f62f2c4b2b38223eb24948e207165dd748d55c375dbf56e07c8f43571c",
+      "resourceManifestSha256": "ed9cd41c0e79b097c7deb48ca652016bd0b35e0dda9083288448fee6f4432949",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "f8947c52f16aac0e15a47bcd11d2166d0b6970dc25e7bfff8018141cae77a464",
-          "byteCount": 22574
+          "sha256": "f5be199053987b6c43b218fdf8945b20fd400bdb2899dc2ef507263c29fd48a4",
+          "byteCount": 23749
         },
         {
           "path": "references/common-terraform-mistakes.md",
@@ -88,8 +205,8 @@
         },
         {
           "path": "references/considerations-usage.md",
-          "sha256": "1ee283e1fb20b3957366b62e88afac8b3dfd9a42add14c9fa71a6f02056f62a4",
-          "byteCount": 7153
+          "sha256": "404f7ccde3f8b411cb46948ab6f6382050a7a2afa9ca31668a6ed5e8a4a8c4e3",
+          "byteCount": 7817
         },
         {
           "path": "references/considerations/1.0.0/catalog.json",
