@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/byoc-hero-dark.png" />
+  <img src="assets/byoc-hero-light.png" alt="Your SaaS product and Tensor9 delivered into enterprise customers’ cloud and on-premises environments." width="100%" />
+</picture>
+
 # Tensor9 skills
 
 Skills for working with **Tensor9 BYOC** in [Codex](https://developers.openai.com/codex/) and [Claude Code](https://code.claude.com/docs/en/overview).
@@ -18,13 +23,12 @@ An enterprise customer may need your product to run in its own cloud account or 
 
 You maintain an **origin stack**: the infrastructure definition for your product. Tensor9 compiles it into a **deployment stack** for a particular customer's environment and configuration. The resulting installation runs in a customer-hosted **appliance**.
 
-```mermaid
-flowchart LR
-    O[Your existing origin stack] --> T[Tensor9 BYOC compilation]
-    A[Customer environment and configuration] --> T
-    T --> D[Customer-specific deployment stack]
-    D --> C[App running in the customer's infrastructure]
-```
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/byoc-workflow-stacked-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/byoc-workflow-stacked-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/byoc-workflow-wide-dark.svg" />
+  <img src="assets/byoc-workflow-wide-light.svg" alt="Your origin stack and customer configuration feed Tensor9 BYOC compilation. Review and deploy the generated stack to run your app in the customer’s infrastructure." width="100%" />
+</picture>
 
 This extends beyond the initial deployment. Tensor9 BYOC provides workflows for releases and upgrades, observability, remote operations, and customer control over maintenance and vendor access. Per-customer configuration can include ingress, controller connectivity, and customer-provided services.
 

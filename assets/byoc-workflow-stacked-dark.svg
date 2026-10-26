@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1024" viewBox="0 0 640 1024" role="img" aria-labelledby="title desc">
+<title id="title">From one origin stack to a customer-specific deployment</title>
+<desc id="desc">Your existing origin stack and each customer’s cloud, networking and service configuration feed Tensor9 BYOC compilation. The resulting deployment stack is reviewed and deployed to an appliance running your app in the customer’s infrastructure.</desc>
+<rect width="640" height="1024" rx="16" fill="#0d1117"/>
+<defs><style>text{font-family:Inter,Arial,Helvetica,sans-serif}</style>
+<marker id="arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8.5" refY="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text x="32" y="42" font-size="31" font-weight="600" fill="#f1f5f9" text-anchor="start">One origin stack.</text>
+<text x="32" y="82" font-size="29" font-weight="600" fill="#f1f5f9" text-anchor="start">A deployment for each customer.</text>
+<rect x="32" y="126" width="260" height="160" rx="12" fill="#161f2d" stroke="#475569" stroke-width="1.6"/>
+<g transform="translate(51 145)" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 9-9 10 9 10m16-20 9 10-9 10M23 3l-6 32"/></g>
+<text x="51" y="229" font-size="26" font-weight="600" fill="#f1f5f9" text-anchor="start">Origin stack</text>
+<text x="51" y="262" font-size="18" font-weight="400" fill="#cbd5e1" text-anchor="start">Your app + existing IaC</text>
+<rect x="348" y="126" width="260" height="160" rx="12" fill="#161f2d" stroke="#475569" stroke-width="1.6"/>
+<g transform="translate(367 145)" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9h34M2 21h34M2 33h34"/><circle cx="12" cy="9" r="4"/><circle cx="27" cy="21" r="4"/><circle cx="16" cy="33" r="4"/></g>
+<text x="367" y="219" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="start">Customer</text>
+<text x="367" y="247" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="start">configuration</text>
+<text x="367" y="270" font-size="17" font-weight="400" fill="#cbd5e1" text-anchor="start">Cloud, network, services</text>
+<path d="M162 286V316H478V286" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M320 316V340" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="120" y="350" width="400" height="154" rx="12" fill="#172f50" stroke="#93c5fd" stroke-width="1.6"/>
+<g transform="translate(145 371)" fill="none" stroke="#93c5fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="30" height="8" rx="2"/><rect x="2" y="16" width="22" height="8" rx="2"/><path d="M2 33h17m9-5 7 5-7 5"/></g>
+<text x="202" y="411" font-size="29" font-weight="600" fill="#f1f5f9" text-anchor="start">Tensor9 BYOC</text>
+<text x="145" y="472" font-size="23" font-weight="400" fill="#cbd5e1" text-anchor="start">Compile for the customer</text>
+<path d="M320 504V548" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="120" y="558" width="400" height="154" rx="12" fill="#161f2d" stroke="#475569" stroke-width="1.6"/>
+<g transform="translate(145 579)" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 1h20l9 9v29H6zM26 1v10h9M13 19h15m-15 7h15m-15 7h9"/></g>
+<text x="202" y="619" font-size="27" font-weight="600" fill="#f1f5f9" text-anchor="start">Deployment stack</text>
+<text x="145" y="680" font-size="23" font-weight="400" fill="#cbd5e1" text-anchor="start">Generated infrastructure</text>
+<path d="M320 712V790" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="344" y="758" font-size="21" font-weight="500" fill="#cbd5e1" text-anchor="start">Review + deploy</text>
+<rect x="120" y="800" width="400" height="168" rx="12" fill="#12392e" stroke="#34d399" stroke-width="1.6"/>
+<g transform="translate(145 820)" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 32h22a9 9 0 0 0 1-18 13 13 0 0 0-25-2A10 10 0 0 0 9 32Z"/><path d="m15 22 4 4 8-9"/></g>
+<text x="202" y="858" font-size="25" font-weight="600" fill="#f1f5f9" text-anchor="start">Customer appliance</text>
+<text x="145" y="903" font-size="23" font-weight="400" fill="#cbd5e1" text-anchor="start">Your app, customer-hosted</text>
+<text x="145" y="943" font-size="16" font-weight="600" fill="#cbd5e1" text-anchor="start">CUSTOMER INFRASTRUCTURE</text>
+</svg>

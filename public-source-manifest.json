@@ -121,12 +121,76 @@
   ],
   "readme": {
     "path": "README.md",
-    "sha256": "f7857b51d812b82bd1ea0cae4692cb7e09e713daf2318b051d839cbbb7ecd6ab",
-    "byteCount": 13538
+    "sha256": "36f236b9f5e519abc25f5d59988d1a4754da85cc13ac4f1ede6fd6a1db73878f",
+    "byteCount": 14120
   },
   "documentationSource": {
     "repository": "tensor9ine/documentation",
     "revision": "5435caf66e1a64596f574659b2cbb0fae3de86eb",
     "scope": "Published Tensor9/BYOC overview, terminology and linked customer workflow documentation"
-  }
+  },
+  "readmeAssets": [
+    {
+      "path": "assets/byoc-hero-dark.png",
+      "sha256": "ed46e9f9bda0258b05f12585ecb1411b370abf82f6e5deba769bc4dc28cf6e91",
+      "byteCount": 246892,
+      "source": {
+        "repository": "tensor9ine/documentation",
+        "revision": "5435caf66e1a64596f574659b2cbb0fae3de86eb",
+        "path": "images/diagrams/tensor9-overview-light.png",
+        "use": "Unmodified published Tensor9 BYOC hero; filename mapped to page theme"
+      }
+    },
+    {
+      "path": "assets/byoc-hero-light.png",
+      "sha256": "38fc8dc3ff74ea42bb64c0af7c4d13b8c7405e42b0cd8d095e85170b52721539",
+      "byteCount": 240983,
+      "source": {
+        "repository": "tensor9ine/documentation",
+        "revision": "5435caf66e1a64596f574659b2cbb0fae3de86eb",
+        "path": "images/diagrams/tensor9-overview-dark.png",
+        "use": "Unmodified published Tensor9 BYOC hero; filename mapped to page theme"
+      }
+    },
+    {
+      "path": "assets/byoc-workflow-stacked-dark.svg",
+      "sha256": "c07aa533ab4bb909d92782e140764fed50b08a9e7b42dd1d9ef99f92251cc26c",
+      "byteCount": 4802,
+      "source": {
+        "kind": "Authored SVG",
+        "meaning": "Origin stack and customer configuration compile into a deployment stack, followed by review/deployment into customer infrastructure",
+        "styleReference": "Published Tensor9 documentation diagram typography and light/dark palette"
+      }
+    },
+    {
+      "path": "assets/byoc-workflow-stacked-light.svg",
+      "sha256": "57265309f7089284977ef7bc950e37a970de7aed002b36eb3fb11605d123ea82",
+      "byteCount": 4802,
+      "source": {
+        "kind": "Authored SVG",
+        "meaning": "Origin stack and customer configuration compile into a deployment stack, followed by review/deployment into customer infrastructure",
+        "styleReference": "Published Tensor9 documentation diagram typography and light/dark palette"
+      }
+    },
+    {
+      "path": "assets/byoc-workflow-wide-dark.svg",
+      "sha256": "4fa3ea557e84d15907d046ddbf6abb54f2d6fa2e4a43e5e671589a226e7c0f17",
+      "byteCount": 4951,
+      "source": {
+        "kind": "Authored SVG",
+        "meaning": "Origin stack and customer configuration compile into a deployment stack, followed by review/deployment into customer infrastructure",
+        "styleReference": "Published Tensor9 documentation diagram typography and light/dark palette"
+      }
+    },
+    {
+      "path": "assets/byoc-workflow-wide-light.svg",
+      "sha256": "a11bdf43a4509c178478f363f7baf81641e48cf468818c79e2a9dcee9680d8b1",
+      "byteCount": 4951,
+      "source": {
+        "kind": "Authored SVG",
+        "meaning": "Origin stack and customer configuration compile into a deployment stack, followed by review/deployment into customer infrastructure",
+        "styleReference": "Published Tensor9 documentation diagram typography and light/dark palette"
+      }
+    }
+  ]
 }
