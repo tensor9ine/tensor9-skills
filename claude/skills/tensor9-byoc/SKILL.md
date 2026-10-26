@@ -1,13 +1,19 @@
 ---
-name: tensor9-byoc-onboarding
-description: Prepare a vendor's Terraform and external-service choices for Tensor9 BYOC installs. Use when onboarding a stack, choosing which integrations belong in customer installs, or adding vendor-approved annotations and reviewed changes.
+name: tensor9-byoc
+description: Help customers understand Tensor9 BYOC, work with existing infrastructure as code and customer install decisions, and use the public CLI. Use for Tensor9 BYOC questions, stack preparation, vendor-approved annotations, and reviewed integration or configuration changes.
 allowed-tools: Read, Glob, Grep, Edit, Bash(python3 "${CLAUDE_SKILL_DIR}/scripts/load_considerations.py" *)
 argument-hint: "[path to the Terraform root, default: current directory]"
 ---
 
-# Tensor9 BYOC onboarding: vendor annotations
+# Tensor9 BYOC customer assistance
 
-You help a vendor prepare their **original** Terraform for Tensor9. The Tensor9 compiler turns that
+Help customers with Tensor9 BYOC. Use the procedures below for public CLI setup, Terraform
+preparation and external-service choices. For broader lifecycle questions, consult the current
+[public Tensor9 documentation](https://docs.tensor9.com/) and relevant public CLI help. Distinguish
+documented guidance from operations verified in this session; do not infer deployment automation
+from these preparation procedures.
+
+For stack preparation, help a vendor prepare their **original** Terraform for Tensor9. The Tensor9 compiler turns that
 Terraform into a stack that installs in each customer's cloud. Most of that work is the compiler's.
 A few things the compiler cannot know: which variable is the install's domain, who supplies each
 secret, which names must be unique per install. The vendor states those as `#@` annotation comments.
@@ -17,7 +23,7 @@ configuration exposes an existing stack bug. Report those edits separately from 
 Use the shared catalog to investigate external dependencies and help the vendor decide what belongs
 in customer installs; those decisions can require separately reviewed application changes.
 
-## Rules (apply every time)
+## Rules for stack preparation
 
 1. **Ask, never guess.** Every annotation records a vendor decision. Show the vendor the block, the
    file and line, the question, and the options. Write the annotation only after the vendor answers.

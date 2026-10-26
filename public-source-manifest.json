@@ -3,7 +3,7 @@
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
     "baseRevision": "6dbaa74ddebea2a771bf1bb5d7da7a28574e18e5",
-    "reviewedOverlay": "Public CLI installation guidance and skill references; exact resource hashes below",
+    "reviewedOverlay": "Public CLI installation guidance, tensor9-byoc naming and customer lifecycle discovery; exact resource hashes below",
     "upstreamPublicationStatus": "Base revision plus reviewed working-source overlay; no claim that the overlay is already published upstream"
   },
   "qualification": {
@@ -23,14 +23,14 @@
   "packages": [
     {
       "provider": "codex",
-      "path": "codex/skills/tensor9-byoc-onboarding",
+      "path": "codex/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "f8bf735265933be97375ac9591b579bd268ca3b5a3b09181eba1a36f734e46a5",
+      "resourceManifestSha256": "d8bd1885cce3a5e3de0aa1b07376c1b14ceee576977ebf7019f8b092a849089b",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "11eba238332f519a88801f8743937dc0a9bb4deed494edb01bfbddc3df40e453",
-          "byteCount": 21935
+          "sha256": "759fa1273ec7b8c183973f0f9569b6b8f4a8e4b5f54e996c7b1f4cfe6f5307b8",
+          "byteCount": 22392
         },
         {
           "path": "references/common-terraform-mistakes.md",
@@ -71,14 +71,14 @@
     },
     {
       "provider": "claude",
-      "path": "claude/skills/tensor9-byoc-onboarding",
+      "path": "claude/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "0104f29d343f6796e8299ce21d9bcb9271c861b1391ede5208038ac7d4781030",
+      "resourceManifestSha256": "0a824bcc9bfae4449997fd9574cf922ffe340fd353be751e526ea0224805b237",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "682a7a65d37ac4df2656bc379546e9542647631fb3792c2316b95eae53a16f53",
-          "byteCount": 22117
+          "sha256": "f8947c52f16aac0e15a47bcd11d2166d0b6970dc25e7bfff8018141cae77a464",
+          "byteCount": 22574
         },
         {
           "path": "references/common-terraform-mistakes.md",
@@ -120,7 +120,12 @@
   ],
   "readme": {
     "path": "README.md",
-    "sha256": "95173792c835cf171c14ea6d47ed33d9faa43ad8df405d8fdae2223d910a435a",
-    "byteCount": 3693
+    "sha256": "f7857b51d812b82bd1ea0cae4692cb7e09e713daf2318b051d839cbbb7ecd6ab",
+    "byteCount": 13538
+  },
+  "documentationSource": {
+    "repository": "tensor9ine/documentation",
+    "revision": "5435caf66e1a64596f574659b2cbb0fae3de86eb",
+    "scope": "Published Tensor9/BYOC overview, terminology and linked customer workflow documentation"
   }
 }
