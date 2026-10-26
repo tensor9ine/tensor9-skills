@@ -132,24 +132,22 @@
   "readmeAssets": [
     {
       "path": "assets/byoc-hero-dark.png",
-      "sha256": "ed46e9f9bda0258b05f12585ecb1411b370abf82f6e5deba769bc4dc28cf6e91",
-      "byteCount": 246892,
+      "sha256": "b7e5195f3ff002da790c5e915f39b41b6e0384d92d73862cb9f470260b571853",
+      "byteCount": 311852,
       "source": {
-        "repository": "tensor9ine/documentation",
-        "revision": "5435caf66e1a64596f574659b2cbb0fae3de86eb",
-        "path": "images/diagrams/tensor9-overview-light.png",
-        "use": "Unmodified published Tensor9 BYOC hero; filename mapped to page theme"
+        "kind": "Operator-supplied Tensor9 BYOC marketing artwork",
+        "name": "tensor9-byoc-on-dark-oct-2026.png",
+        "use": "Unmodified October 2026 artwork for the matching page theme"
       }
     },
     {
       "path": "assets/byoc-hero-light.png",
-      "sha256": "38fc8dc3ff74ea42bb64c0af7c4d13b8c7405e42b0cd8d095e85170b52721539",
-      "byteCount": 240983,
+      "sha256": "b3b69db127b8b7893507b5e5777d16a419692d423c188e455afdd31a4b74df2a",
+      "byteCount": 267691,
       "source": {
-        "repository": "tensor9ine/documentation",
-        "revision": "5435caf66e1a64596f574659b2cbb0fae3de86eb",
-        "path": "images/diagrams/tensor9-overview-dark.png",
-        "use": "Unmodified published Tensor9 BYOC hero; filename mapped to page theme"
+        "kind": "Operator-supplied Tensor9 BYOC marketing artwork",
+        "name": "tensor9-byoc-on-light-oct-2026.png",
+        "use": "Unmodified October 2026 artwork for the matching page theme"
       }
     },
     {
