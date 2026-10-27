@@ -3,9 +3,10 @@
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
     "repository": "tensor9ine/Prime",
-    "baseRevision": "6ec9ef66060ecf6bf38a4bc6b0c67a3bcfade901",
+    "baseRevision": "3a59857c89c3e951d15f88fb28f508907b2568de",
     "reviewedOverlay": "None: every packaged resource matches this published source revision byte for byte",
-    "upstreamPublicationStatus": "Published source only. Account-route activation and current-package native qualification remain InProgress."
+    "upstreamPublicationStatus": "Published source checkpoint. Named catalog cases and the approved Alpha catalog increment retain bounded acceptance; storage followup and overall goal qualification remain incomplete.",
+    "retainedResourceBaseRevision": "6ec9ef66060ecf6bf38a4bc6b0c67a3bcfade901"
   },
   "qualification": {
     "status": "InProgress",
@@ -88,38 +89,89 @@
           "Claude Code"
         ],
         "result": "Pass"
+      },
+      {
+        "scope": "Authenticated native catalog refresh and version upgrade, older-version rollback refusal, equal-version digest conflict, corrupt-cache offline fallback and online repair, and valid offline cache use",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "PassBoundedNativeCases",
+        "evidenceBasis": "Original accepted cases retain their package identities. Four fresh affected rollback/conflict retakes accepted the revised shared reporting guidance; unchanged cases were carried forward on unchanged loader, fixtures and relevant resources.",
+        "limit": "This does not mean every case was rerun against the revised package or that the whole goal is complete."
       }
     ],
     "remainingQualification": [
       {
-        "scope": "Activate the approved authenticated Account API catalog read and qualify the current CLI/package through that actual service",
+        "scope": "Complete the remaining approved storage edit through an actual dependent-change proposal, independent review, narrow Demo approval, and actual edit",
         "providers": [
-          "Codex",
           "Claude Code"
         ],
-        "status": "Pending",
-        "reason": "The Account route has source and focused-test qualification. Alpha service activation and current-package native qualification have not run. Existing enrolled and sandbox VCtrl paths remain supported."
+        "status": "Unmet",
+        "reason": "The prepared exact fifty-two-file source/context followup archive has not been transferred; permission for that transfer remains pending. Prior annotations and approvals stay retained, and no dependent repair is preapproved."
       },
       {
-        "scope": "Actual native refresh, offline/cache/bundle fallback, version upgrade, conflicting version or digest, and rejection of an older-version rollback while retaining usable accepted cache",
-        "providers": [
-          "Codex",
-          "Claude Code"
-        ],
-        "status": "Unqualified"
-      },
-      {
-        "scope": "Final goal acceptance, checklist closure and qualification publication",
-        "status": "Incomplete"
+        "scope": "Final source revision binding, same-panel goal/checklist closure and publication readback",
+        "status": "Pending"
       }
     ],
-    "localEvidenceScope": "Account-route source qualification: seventeen current focused Kotlin tests passed with main/test compilation; forty-three previously passing methods were carried forward on unchanged relevant inputs. Current loader/package suite passed sixty-eight tests. These are source/helper checks, not new current-package native provider cases.",
+    "localEvidenceScope": "Seventy-one distinct Kotlin methods across ten classes passed on the recorded original coverage snapshot. Nineteen repeated integration methods passed with main and test compilation on the merged source. Coverage remains partial and scoped to its original measurement; earlier helper results retain their stated historical checkpoint scope.",
     "verificationSource": {
       "repository": "tensor9ine/Prime",
       "path": "src/main/kotlin/t9/ai/projects/active/plans/byocselfserve/ByocOnboardingSkillsQualification_2026_10_26.kt",
       "revisionSource": "upstreamSource.baseRevision"
     },
-    "verificationSummary": {
+    "sourceRuntimeEvidenceLimit": "The named native catalog cases, specifically approved Alpha Account API catalog increment and scoped source qualification have the recorded acceptance. The remaining approved storage output, final goal/checklist closure and publication remain incomplete.",
+    "namedCaseEvidenceScope": "Earlier preparation cases retain their original package scope. Catalog scenarios now have native acceptance using original accepted cases plus four fresh affected retakes, rather than a claim that every historical case ran again.",
+    "currentCatalogEvidence": {
+      "scenarios": [
+        "version-upgrade",
+        "older-version-rollback-refusal",
+        "equal-version-digest-conflict",
+        "corrupt-cache-offline",
+        "corrupt-cache-refresh-repair",
+        "valid-cache-offline"
+      ],
+      "acceptedCaseIds": {
+        "codex": [
+          "codex-catalog-01-r1",
+          "codex-catalog-02-r1",
+          "codex-catalog-03-r1",
+          "codex-catalog-04",
+          "codex-catalog-05",
+          "codex-catalog-06"
+        ],
+        "claude": [
+          "claude-catalog-01",
+          "claude-catalog-02-r1",
+          "claude-catalog-03-r1",
+          "claude-catalog-04",
+          "claude-catalog-05",
+          "claude-catalog-06"
+        ]
+      },
+      "freshAffectedRetakes": 4,
+      "retakeAssessmentSha256": "9f754140473f544860c2e95596065018578243abe4b242f806b0cffb3a8e2142",
+      "sourceScopedCarry": "Only the shared reference changed. Four fresh retakes covered the changed fetch-versus-adoption reporting instructions; earlier accepted cases use unchanged relevant source and keep their original identities.",
+      "preservedFailures": "Earlier missing-command and policy-refusal report failures remain recorded at their original identities; later retakes do not rewrite those attempts.",
+      "indexScope": "Actual page consumption differs by case and is recorded separately; matchCount alone is not evidence that every index entry was read.",
+      "selectedCatalog": {
+        "version": "1.0.0",
+        "sha256": "b721b72d26ffc5699157cf1b6f61ae4989ce073c94a19792e839991a07565828",
+        "considerationCount": 96
+      },
+      "nativeClientSha256": "9c30320cc2b5b4d3fd992a7729585ffc9ad6d45226479a32e945a98a4edff8f8"
+    },
+    "accountApiRuntimeEvidence": {
+      "status": "PassBoundedAlphaCatalogRead",
+      "serverSourceRevision": "32256377b01830002706f5dd5fc9202da96eda90",
+      "serverArtifactSha256": "04d5bc764b47f29e099f9f1053c771ce625cc970b1d23a4a6d95de6ebe12daa0",
+      "scope": "The specifically approved additive Account API catalog route was accepted on the measured Alpha runtime. Native authenticated public snapshot reads and synthetic unauthorized-request refusal canaries passed.",
+      "limit": "No general deployment approval, other environment support, customer application runtime acceptance or full skills qualification is implied."
+    },
+    "catalogEvolutionNativeCasesPending": false,
+    "acceptedOutputNativeFollowupPending": true,
+    "retainedCheckpointVerificationSummary": {
       "currentFocusedKotlinRun": {
         "tests": 17,
         "passed": 17,
@@ -142,11 +194,43 @@
         "passed": 28,
         "skipped": 1,
         "skipReason": "GNU tar/gzip interop unavailable on the local host"
-      }
+      },
+      "checkpointRevision": "6ec9ef66060ecf6bf38a4bc6b0c67a3bcfade901",
+      "scope": "Retained historical source/helper evidence, not a count of new native model cases or final pending integration checks."
     },
-    "sourceRuntimeEvidenceLimit": "The approved additive Account route is source-qualified only. Earlier named native cases retain their stated scope; no current-package Account API/model pass, deployed service support, application runtime or deployment success is claimed.",
-    "newPackageNativeCasesPending": true,
-    "namedCaseEvidenceScope": "Retained bounded results from earlier qualification packages. These historical results do not establish native Account-route behavior for the current package."
+    "verificationSummary": {
+      "status": "ScopedSourceQualificationComplete",
+      "distinctKotlinMethods": 71,
+      "testClasses": 10,
+      "sourceCoverageSnapshot": {
+        "revision": "9e32a3e7bed4b0d85713e0a2a3117d49eedfc8d3",
+        "tests": 71,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "result": "BUILD SUCCESSFUL",
+        "freshCoverageSession": true
+      },
+      "mergedIntegration": {
+        "revision": "db6b61840c562fa1342ac3a9f05b41a043a26e7c",
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "mainAndTestCompiled": true,
+        "result": "BUILD SUCCESSFUL",
+        "subsetOfDistinct71": true,
+        "coverageRerun": false
+      },
+      "counting": "The smoke two and merged nineteen are repeated subsets of the seventy-one distinct methods, not additional methods or combined coverage.",
+      "coverage": {
+        "status": "PartialOriginalSnapshot",
+        "scope": "Measured counters belong to the original source snapshot. Later changes to other service methods and the test classpath were checked by merged integration; they do not refresh the original coverage counters.",
+        "unchangedRelevantMethods": "The catalog retrieval and Account authentication methods, other owned source and tests retained their reviewed inputs.",
+        "limits": "No global coverage threshold, whole-service coverage or native-model coverage claim."
+      },
+      "qualificationSummarySha256": "0f774e85826306540bfc36ee1ab71d37dc6356f016ffbf88419971e14b28e413"
+    }
   },
   "catalog": {
     "schemaVersion": 1,
@@ -161,7 +245,7 @@
       "provider": "codex",
       "path": "codex/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "021f7e0518eceef07d861ee4683d0832edbc5b8c9170500841b92d66269b24ac",
+      "resourceManifestSha256": "2dd5dd5c8269cc2dd128b79a75edded30b7482a33d143942e05a7a3d52e45fde",
       "resources": [
         {
           "path": "SKILL.md",
@@ -175,8 +259,8 @@
         },
         {
           "path": "references/considerations-usage.md",
-          "sha256": "7a99ec91060833527f35c6a825fedbc5961543c461edee3bf923da3b8b5d53fb",
-          "byteCount": 8293
+          "sha256": "bddbbff37ac6fae8ef2fa4101208b3e2b1f0353a18a260f0d5fe08267e74e436",
+          "byteCount": 8993
         },
         {
           "path": "references/considerations/1.0.0/catalog.json",
@@ -209,7 +293,7 @@
       "provider": "claude",
       "path": "claude/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "4f4934bfc12c168a57de191ab6c5fc66e9a5ca132777b446f83fb80267d266f0",
+      "resourceManifestSha256": "96cd19aafec5d3421d7f424dcb1d2aad3e7ec0dd7da5a27f355e4f06bf7280ef",
       "resources": [
         {
           "path": "SKILL.md",
@@ -223,8 +307,8 @@
         },
         {
           "path": "references/considerations-usage.md",
-          "sha256": "7a99ec91060833527f35c6a825fedbc5961543c461edee3bf923da3b8b5d53fb",
-          "byteCount": 8293
+          "sha256": "bddbbff37ac6fae8ef2fa4101208b3e2b1f0353a18a260f0d5fe08267e74e436",
+          "byteCount": 8993
         },
         {
           "path": "references/considerations/1.0.0/catalog.json",
@@ -257,7 +341,7 @@
   "readme": {
     "path": "README.md",
     "sha256": "13267f7e19fc1003bcdaac1eef6e987ef41e453e8bf9ec497fbdd958131d1b34",
-    "byteCount": 14120
+    "byteCount": 18371
   },
   "documentationSource": {
     "repository": "tensor9ine/documentation",

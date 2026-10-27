@@ -60,6 +60,16 @@ a snapshot through the installed CLI; the three-field snapshot does not identify
 controller transport. Direct CLI queries distinguish `account-api` and `vctrl`. A successful read identifies
 the selected authenticated vendor’s catalog, not a globally latest release. If Python or shell access is unavailable, read the bundled index and its
 linked versioned JSON directly and state that refresh was not performed.
+
+`provenance.source` describes the data returned, not every step attempted during refresh.
+A refresh `fallback` with reason `rollback` or `equal-version-conflict` means a response
+was fetched and validated through the selected native CLI, then rejected for adoption.
+Report both facts: the native read returned a validated response, and the selected cache
+or bundle remains historical/local data. These policy refusals do not indicate an
+authentication or network failure. The fallback result does not expose every field of
+the rejected response; do not invent its version, digest, vendor or transport. For other
+fallback reasons, report only the failure and facts established by the actual result.
+
 When `truncated` is true, pass `nextOffset` as `--offset` to read the next index/search
 page; `--limit` accepts 1–50. Continue until `nextOffset` is null, or narrow a search.
 
