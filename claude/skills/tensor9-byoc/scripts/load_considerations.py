@@ -516,7 +516,7 @@ def query(snapshot, source, refresh_result, identifier=None, search=None, offset
             and profile == snapshot.requested_profile
             and refresh_result.get("requestedProfile") == snapshot.requested_profile
             and refresh_result.get("sha256") == manifest["sha256"]):
-        source = "vctrl"
+        source = "native-cli"
     result = {
         "provenance": {"source": source, "servingVendor": snapshot.serving_vendor,
                        "sourceRequestedProfile": snapshot.requested_profile, "requestedProfile": profile, "schemaVersion": 1, "catalogVersion": manifest["catalogVersion"], "sha256": manifest["sha256"], "refresh": refresh_result,
@@ -536,7 +536,7 @@ def main(arguments=None):
     parser.add_argument("--offset", type=int, default=0, help="index/search offset from nextOffset")
     parser.add_argument("--limit", type=int, default=50, help="index/search page size (1–50)")
     mode = parser.add_mutually_exclusive_group()
-    mode.add_argument("--refresh", action="store_true", help="force bounded metadata retrieval from the selected vendor VCtrl through tensor9")
+    mode.add_argument("--refresh", action="store_true", help="force bounded metadata retrieval for the selected vendor through tensor9")
     mode.add_argument("--no-refresh", action="store_true", help="never contact tensor9; query only the cache and bundle")
     parser.add_argument("--max-cache-age-hours", type=float, default=DEFAULT_MAX_CACHE_AGE_HOURS,
                         help="refresh automatically when the cache is missing or older than this (0–8760, default 24)")

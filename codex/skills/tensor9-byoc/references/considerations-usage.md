@@ -22,7 +22,9 @@ The loader refreshes automatically when its cache is missing or older than 24 ho
 `skipped-fresh`. Use `--refresh` to force a refresh and `--no-refresh` to stay offline. After a failed
 automatic refresh, further automatic attempts are skipped for 10 minutes (`skipped-backoff`); `--refresh`
 still tries. The loader invokes only the installed public CLI command `tensor9 prepare considerations -snapshot -json`. The CLI uses
-standard vendor-profile discovery, including supported sandbox profiles, and native authentication.
+standard account/vendor-profile discovery and native authentication. Compatible CLI/server versions can read
+through the authenticated Account API before controller deployment; enrolled and Sandbox profiles retain
+their controller path. An unsupported server retains the labelled bundle/cache instead of changing authentication.
 It reads generic public metadata without importing a workspace or uploading application files,
 answers or application secrets. Native authentication still carries credentials through its normal
 transport; the skill must not inspect or print them. No Prime checkout or private `t9dev` is needed.
@@ -48,13 +50,15 @@ ignored and left untouched. They do not check ancestor directories.
 Bundled installation files are exempt from this cache ownership policy.
 
 Read `provenance`, its `refresh` and its `freshness` (`cacheAgeSeconds`, `ttlSeconds`, `stale`) in
-every result. Report version, digest, VCtrl/cache/bundle source, cache age, serving vendor, requested
+every result. Report version, digest, `native-cli`/cache/bundle source, cache age, serving vendor, requested
 profile, refresh status and any fallback reason. Cached data retains its original serving
 vendor and source profile; it is never relabelled as a successful read from the current controller.
 Vendor IDs can repeat across stages, and a default or named profile can be reconfigured. Historical
 profile/vendor labels do not establish a globally stable controller identity or identify the current
-selected controller while offline. Named profile caches are separate. A successful read identifies that controller's catalog, not a
-globally latest release. If Python or shell access is unavailable, read the bundled index and its
+selected server while offline. Named profile caches are separate. `native-cli` means this invocation verified
+a snapshot through the installed CLI; the three-field snapshot does not identify its Account API or
+controller transport. Direct CLI queries distinguish `account-api` and `vctrl`. A successful read identifies
+the selected authenticated vendor’s catalog, not a globally latest release. If Python or shell access is unavailable, read the bundled index and its
 linked versioned JSON directly and state that refresh was not performed.
 When `truncated` is true, pass `nextOffset` as `--offset` to read the next index/search
 page; `--limit` accepts 1–50. Continue until `nextOffset` is null, or narrow a search.

@@ -3,9 +3,9 @@
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
     "repository": "tensor9ine/Prime",
-    "baseRevision": "9fe2bc8ba61dcdf15433dd8ec94be4c551e0281e",
+    "baseRevision": "6ec9ef66060ecf6bf38a4bc6b0c67a3bcfade901",
     "reviewedOverlay": "None: every packaged resource matches this published source revision byte for byte",
-    "upstreamPublicationStatus": "Published source only. Native behavioral qualification remains InProgress."
+    "upstreamPublicationStatus": "Published source only. Account-route activation and current-package native qualification remain InProgress."
   },
   "qualification": {
     "status": "InProgress",
@@ -92,43 +92,61 @@
     ],
     "remainingQualification": [
       {
-        "scope": "Actual live controller catalog refresh and cache evolution",
+        "scope": "Activate the approved authenticated Account API catalog read and qualify the current CLI/package through that actual service",
         "providers": [
           "Codex",
           "Claude Code"
         ],
-        "status": "Unqualified",
-        "reason": "The existing Sandbox tenant expired; native metadata requests ended with EOF and the normal connection code expired. Awaiting a fresh operator-provided connection code."
+        "status": "Pending",
+        "reason": "The Account route has source and focused-test qualification. Alpha service activation and current-package native qualification have not run. Existing enrolled and sandbox VCtrl paths remain supported."
+      },
+      {
+        "scope": "Actual native refresh, offline/cache/bundle fallback, version upgrade, conflicting version or digest, and rejection of an older-version rollback while retaining usable accepted cache",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "status": "Unqualified"
       },
       {
         "scope": "Final goal acceptance, checklist closure and qualification publication",
         "status": "Incomplete"
       }
     ],
-    "localEvidenceScope": "Current loader and packaging suite: 68 tests passed (55 loader, 13 packaging). Packaging instruction contracts do not establish native behavior.",
+    "localEvidenceScope": "Account-route source qualification: seventeen current focused Kotlin tests passed with main/test compilation; forty-three previously passing methods were carried forward on unchanged relevant inputs. Current loader/package suite passed sixty-eight tests. These are source/helper checks, not new current-package native provider cases.",
     "verificationSource": {
       "repository": "tensor9ine/Prime",
       "path": "src/main/kotlin/t9/ai/projects/active/plans/byocselfserve/ByocOnboardingSkillsQualification_2026_10_26.kt",
       "revisionSource": "upstreamSource.baseRevision"
     },
     "verificationSummary": {
-      "focusedKotlinTests": {
-        "passed": 3,
+      "currentFocusedKotlinRun": {
+        "tests": 17,
+        "passed": 17,
         "failures": 0,
         "errors": 0,
-        "skipped": 0
+        "skipped": 0,
+        "mainAndTestCompiled": true
+      },
+      "priorPassingKotlinMethodsCarriedForward": {
+        "passed": 43,
+        "rerunInCurrentFocusedRun": false,
+        "scope": "Unchanged codec, reader, existing controller CLI, generic Account transport and identity-probe inputs"
       },
       "loaderAndPackagingPythonTests": {
-        "passed": 68,
-        "warnings": 0
+        "tests": 68,
+        "passed": 68
       },
-      "qualificationHelperTests": {
-        "passed": 21,
+      "qualificationHelperPythonTests": {
+        "tests": 29,
+        "passed": 28,
         "skipped": 1,
         "skipReason": "GNU tar/gzip interop unavailable on the local host"
       }
     },
-    "sourceRuntimeEvidenceLimit": "Source changes and bounded native assistance behavior are qualified only in the named scopes above; application runtime and deployment behavior are unverified."
+    "sourceRuntimeEvidenceLimit": "The approved additive Account route is source-qualified only. Earlier named native cases retain their stated scope; no current-package Account API/model pass, deployed service support, application runtime or deployment success is claimed.",
+    "newPackageNativeCasesPending": true,
+    "namedCaseEvidenceScope": "Retained bounded results from earlier qualification packages. These historical results do not establish native Account-route behavior for the current package."
   },
   "catalog": {
     "schemaVersion": 1,
@@ -143,12 +161,12 @@
       "provider": "codex",
       "path": "codex/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "c48ee74109dd7ecb9558c660afce83a215fdc7daa3583d55ca8e2707f97adf5c",
+      "resourceManifestSha256": "021f7e0518eceef07d861ee4683d0832edbc5b8c9170500841b92d66269b24ac",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "257c33d52d9879c4c2a39a9497c68a9244e12df00662ee73870c2dd7453d425a",
-          "byteCount": 23567
+          "sha256": "b0d48c6e311ba43d2e07a725910d009575b470a7ea3332729f55174803403060",
+          "byteCount": 23590
         },
         {
           "path": "references/common-terraform-mistakes.md",
@@ -157,8 +175,8 @@
         },
         {
           "path": "references/considerations-usage.md",
-          "sha256": "404f7ccde3f8b411cb46948ab6f6382050a7a2afa9ca31668a6ed5e8a4a8c4e3",
-          "byteCount": 7817
+          "sha256": "7a99ec91060833527f35c6a825fedbc5961543c461edee3bf923da3b8b5d53fb",
+          "byteCount": 8293
         },
         {
           "path": "references/considerations/1.0.0/catalog.json",
@@ -182,8 +200,8 @@
         },
         {
           "path": "scripts/load_considerations.py",
-          "sha256": "ded83ecf6ee0de0570c55f7fc529016a13555b5cff1d4a606efe0175eccf5f70",
-          "byteCount": 27192
+          "sha256": "3ce7ab035a08efd0801e4da7210cf8f1398f350b44e13d8511801d310326f909",
+          "byteCount": 27190
         }
       ]
     },
@@ -191,12 +209,12 @@
       "provider": "claude",
       "path": "claude/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "ed9cd41c0e79b097c7deb48ca652016bd0b35e0dda9083288448fee6f4432949",
+      "resourceManifestSha256": "4f4934bfc12c168a57de191ab6c5fc66e9a5ca132777b446f83fb80267d266f0",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "f5be199053987b6c43b218fdf8945b20fd400bdb2899dc2ef507263c29fd48a4",
-          "byteCount": 23749
+          "sha256": "1e4a44601c23a83a3312f4cc2578cf617043938eaf431b8292bc41479bca72bf",
+          "byteCount": 23772
         },
         {
           "path": "references/common-terraform-mistakes.md",
@@ -205,8 +223,8 @@
         },
         {
           "path": "references/considerations-usage.md",
-          "sha256": "404f7ccde3f8b411cb46948ab6f6382050a7a2afa9ca31668a6ed5e8a4a8c4e3",
-          "byteCount": 7817
+          "sha256": "7a99ec91060833527f35c6a825fedbc5961543c461edee3bf923da3b8b5d53fb",
+          "byteCount": 8293
         },
         {
           "path": "references/considerations/1.0.0/catalog.json",
@@ -230,8 +248,8 @@
         },
         {
           "path": "scripts/load_considerations.py",
-          "sha256": "ded83ecf6ee0de0570c55f7fc529016a13555b5cff1d4a606efe0175eccf5f70",
-          "byteCount": 27192
+          "sha256": "3ce7ab035a08efd0801e4da7210cf8f1398f350b44e13d8511801d310326f909",
+          "byteCount": 27190
         }
       ]
     }
