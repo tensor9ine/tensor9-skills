@@ -256,6 +256,15 @@ Tensor9 compiler does not repair this.
    vendor whether two installs ever share an account.
 6. Propose deriving names from a per-install prefix. Renaming replaces an existing resource; explain
    the state effect, show the diff and obtain vendor acceptance.
+7. Trace the name through resource references and literal consumers: URIs, configuration values,
+   policy ARNs, scripts/manifests and exact-match security exclusions. Check a nonempty namespace,
+   not only the empty default. Keep each security exclusion tied to the actual resource; do not
+   widen it or silently change which findings are suppressed. If external runtime wiring is
+   unavailable, separate the source repair from what remains unverified.
+8. Preserve access needed by unrelated resources. When renaming requires additional IAM access,
+   prefer the actual renamed resource ARN and object ARNs where needed, retaining existing grants.
+   Do not infer permission for a new wildcard resource family from unknown application naming.
+   Treat broader access as a separate decision, with evidence and an explicit proposed diff.
 
 ### Oumi example
 

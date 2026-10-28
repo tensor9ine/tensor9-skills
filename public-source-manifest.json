@@ -3,14 +3,14 @@
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
     "repository": "tensor9ine/Prime",
-    "baseRevision": "3a59857c89c3e951d15f88fb28f508907b2568de",
+    "baseRevision": "c9b5f6789055bd311f48b6c4ba4ee3ad33b27345",
     "reviewedOverlay": "None: every packaged resource matches this published source revision byte for byte",
-    "upstreamPublicationStatus": "Published source checkpoint. Named catalog cases and the approved Alpha catalog increment retain bounded acceptance; storage followup and overall goal qualification remain incomplete.",
-    "retainedResourceBaseRevision": "6ec9ef66060ecf6bf38a4bc6b0c67a3bcfade901"
+    "upstreamPublicationStatus": "Published source checkpoint. Named preparation cases and the actual reviewed storage edit retain scoped acceptance. Final integrated metadata compilation and constructor check passed; final delivery review and qualification publication/readback remain pending.",
+    "retainedResourceBaseRevision": "3a59857c89c3e951d15f88fb28f508907b2568de"
   },
   "qualification": {
     "status": "InProgress",
-    "methodology": "Actual native agents in isolated cloud-build cleanrooms; named evidence scopes do not imply overall qualification",
+    "methodology": "Actual fresh native Codex and Claude Code sessions in measured isolated cloud-build cases; preparation qualification only, with historical identities and scoped evidence carry.",
     "nativeProviders": [
       {
         "provider": "Codex",
@@ -71,8 +71,8 @@
         "providers": [
           "Claude Code"
         ],
-        "result": "PassWithExplicitUnfinishedDependency",
-        "limit": "One approved storage edit remains unfinished because its dependent change was not approved"
+        "result": "PassWithCompletedAffectedFollowup",
+        "evidenceBasis": "Historical preparation observations retain their original identities. A fresh corrected Claude proposal, clarification and same-session narrowly approved actual edit completed the storage dependency; five actual postimages matched the reviewed artifact and all other inputs were preserved."
       },
       {
         "scope": "Privacy behavior against frozen evaluator expectations",
@@ -99,30 +99,32 @@
         "result": "PassBoundedNativeCases",
         "evidenceBasis": "Original accepted cases retain their package identities. Four fresh affected rollback/conflict retakes accepted the revised shared reporting guidance; unchanged cases were carried forward on unchanged loader, fixtures and relevant resources.",
         "limit": "This does not mean every case was rerun against the revised package or that the whole goal is complete."
+      },
+      {
+        "scope": "Shared namespace-consumer/security exclusion and minimum additional IAM guidance",
+        "providers": [
+          "Codex",
+          "Claude Code"
+        ],
+        "result": "PassFreshAffectedProposalRetakes",
+        "evidenceBasis": "Two material findings in the original Claude proposal preceded the shared guide correction. Fresh actual proposals on both corrected provider packages cover exact renamed-resource permissions and security exclusion consistency; the original failed proposal remains preserved.",
+        "limit": "The fresh Codex proposal did not output the retained answer-sheet body; earlier actual approval-reuse cases carry at their original package identities. The final Claude case read the full retained sheet before the reviewed edit."
       }
     ],
     "remainingQualification": [
       {
-        "scope": "Complete the remaining approved storage edit through an actual dependent-change proposal, independent review, narrow Demo approval, and actual edit",
-        "providers": [
-          "Claude Code"
-        ],
-        "status": "Unmet",
-        "reason": "The prepared exact fifty-two-file source/context followup archive has not been transferred; permission for that transfer remains pending. Prior annotations and approvals stay retained, and no dependent repair is preapproved."
-      },
-      {
-        "scope": "Final source revision binding, same-panel goal/checklist closure and publication readback",
+        "scope": "Exact published source revision binding, final delivery/goal review and public qualification readback",
         "status": "Pending"
       }
     ],
-    "localEvidenceScope": "Seventy-one distinct Kotlin methods across ten classes passed on the recorded original coverage snapshot. Nineteen repeated integration methods passed with main and test compilation on the merged source. Coverage remains partial and scoped to its original measurement; earlier helper results retain their stated historical checkpoint scope.",
+    "localEvidenceScope": "Historical source checks remain seventy-one distinct Kotlin methods and a repeated nineteen-method integration subset at their recorded revisions, with PartialCoverage. New storage evidence is actual native proposals and matching edits, plus read-only syntax checks; no count union, blanket current-package rerun or whole-later-HEAD compilation is claimed.",
     "verificationSource": {
       "repository": "tensor9ine/Prime",
       "path": "src/main/kotlin/t9/ai/projects/active/plans/byocselfserve/ByocOnboardingSkillsQualification_2026_10_26.kt",
       "revisionSource": "upstreamSource.baseRevision"
     },
-    "sourceRuntimeEvidenceLimit": "The named native catalog cases, specifically approved Alpha Account API catalog increment and scoped source qualification have the recorded acceptance. The remaining approved storage output, final goal/checklist closure and publication remain incomplete.",
-    "namedCaseEvidenceScope": "Earlier preparation cases retain their original package scope. Catalog scenarios now have native acceptance using original accepted cases plus four fresh affected retakes, rather than a claim that every historical case ran again.",
+    "sourceRuntimeEvidenceLimit": "The agreed preparation behaviors have scoped acceptance, including the actual reviewed storage edit and final integrated metadata compilation/constructor check. Exact published source binding, final delivery/goal review and publication readback remain pending. This does not qualify all Tensor9 BYOC workflows, real customer operation or deployment.",
+    "namedCaseEvidenceScope": "Historical preparation, privacy, installation and catalog cases retain their original package/fixture identities. Fresh affected shared-guide proposals and the same-session Claude edit qualify the changed instructions; unaffected accepted cases carry with explicit source reasoning.",
     "currentCatalogEvidence": {
       "scenarios": [
         "version-upgrade",
@@ -152,7 +154,7 @@
       },
       "freshAffectedRetakes": 4,
       "retakeAssessmentSha256": "9f754140473f544860c2e95596065018578243abe4b242f806b0cffb3a8e2142",
-      "sourceScopedCarry": "Only the shared reference changed. Four fresh retakes covered the changed fetch-versus-adoption reporting instructions; earlier accepted cases use unchanged relevant source and keep their original identities.",
+      "sourceScopedCarry": "Earlier reporting-guidance retakes retain their original package identities. Later generic SKILL and Terraform-mistakes additions do not change the loader, catalog or considerations-usage reference; catalog acceptance carries without replay.",
       "preservedFailures": "Earlier missing-command and policy-refusal report failures remain recorded at their original identities; later retakes do not rewrite those attempts.",
       "indexScope": "Actual page consumption differs by case and is recorded separately; matchCount alone is not evidence that every index entry was read.",
       "selectedCatalog": {
@@ -170,7 +172,7 @@
       "limit": "No general deployment approval, other environment support, customer application runtime acceptance or full skills qualification is implied."
     },
     "catalogEvolutionNativeCasesPending": false,
-    "acceptedOutputNativeFollowupPending": true,
+    "acceptedOutputNativeFollowupPending": false,
     "retainedCheckpointVerificationSummary": {
       "currentFocusedKotlinRun": {
         "tests": 17,
@@ -230,7 +232,64 @@
         "limits": "No global coverage threshold, whole-service coverage or native-model coverage claim."
       },
       "qualificationSummarySha256": "0f774e85826306540bfc36ee1ab71d37dc6356f016ffbf88419971e14b28e413"
-    }
+    },
+    "currentStorageEvidence": {
+      "status": "AcceptedActualReviewedEdit",
+      "sharedGuidanceFindings": 2,
+      "freshAffectedProposalProviders": [
+        "Codex",
+        "Claude Code"
+      ],
+      "actualEditProvider": "Claude Code",
+      "actualChangedFiles": 5,
+      "otherInputsPreserved": 55,
+      "reviewedArtifactMatchedActualPostimages": true,
+      "sameNativeSessionResumed": true,
+      "retainedAnswersReadBeforeClaudeEdit": true,
+      "wrongArtifactHashRefusalPreserved": true,
+      "scope": "The narrowly reviewed synthetic source repair completed the remaining approved storage prefix and dependent URI/ARN/security exclusion changes while retaining unrelated grants. The Temporal change is a manual input capability with its previous-name fallback; external caller wiring is unknown and unverified.",
+      "syntaxChecks": {
+        "openTofuFiles": 29,
+        "allExit0": true,
+        "readOnlyFormatParseOnly": true,
+        "shellSyntax": "Pass",
+        "terraformInitValidatePlanApply": "Not performed"
+      },
+      "correctedPackageResources": {
+        "claude": "ae689c6649c0a35cdee1f7fd0e1d68207ec4a1dd4db80a975a0f7bea2edec25d",
+        "codex": "ce4c4a6e35f572e0d197ab1bff0a0e050b8eabb27ef6e5367a41169dd3465d0a"
+      },
+      "proposalFixtureEvidenceSha256": "75fe695819cb10c219c72ac165518d005ac105b6006618ede8aab7bb2e0b177b",
+      "actualEditFixtureEvidenceSha256": "82ade4cd87322f5e95064469816ba499c5dab30680814a2c6736fa9a62180b23",
+      "actualEditSemanticEvidenceSha256": "e08b990c45ad89f2c82fc72a72cdd4776d2017493035280997685e41e249f0bb",
+      "syntaxEvidenceSha256": "9529526ae74c432b952267a88be7d7aa72982cb83e7ad2e66ac4f8488f73f9af"
+    },
+    "finalMetadataQualification": {
+      "status": "Passed",
+      "sourceBaseRevision": "15166d7336fb3abf7b1a799e20198bd7e00339dc",
+      "scope": "Actual main, tutorial and test-source compilation plus the single owning plan-constructor test on eight frozen postimages. Not a new native behavior case or replay of the prior seventy-one methods.",
+      "mainAndTutorialAndTestSourcesCompiled": true,
+      "constructorTests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "result": "BUILD SUCCESSFUL in 6m 28s",
+      "coverageRerun": false,
+      "prior71Replayed": false,
+      "receiptSha256": "2170846c7b1231f65d71327b45f01c390beb2a93b9824ca1a87ec7a1f3d87a0f",
+      "frozenPostimagesReceiptSha256": "1d174bc46e759ad0518f72afa6c03ee990efe546f51cb7b0b7ffc56b124372a5",
+      "freshXmlSha256": "1c6fb5ff99ca30bb6d48e262a655c84cda9ad624c91e19ea40757d5cd6e45263"
+    },
+    "claimLimits": [
+      "Qualification covers the agreed preparation course, not every BYOC customer workflow or statistical reliability on unseen fixtures.",
+      "Historical examples, case identities, failed attempts and unaffected evidence carry remain explicit; no blanket rerun of every case on the final package.",
+      "Codex built-in system skills remained available. Claude native Bash sandbox was disabled; measured outer Docker controls are a separate claim.",
+      "Provider-side remote web tools are outside container proxy controls; no complete provider-side network capture is claimed.",
+      "CLI installation used staged immutable public artifacts; mutable installers and live downloads are not qualified.",
+      "Catalog backend request correlation is incomplete; encrypted canonical TLS is not inspection of RPC bodies and Account credentials are not read-only catalog authority.",
+      "Earlier privacy corrections and retrospective regression chronology remain documented; later passes do not rewrite failures.",
+      "No Terraform validate/plan/apply, application startup, external Temporal runtime wiring, deployment or real customer commercial approval is established."
+    ]
   },
   "catalog": {
     "schemaVersion": 1,
@@ -245,17 +304,17 @@
       "provider": "codex",
       "path": "codex/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "2dd5dd5c8269cc2dd128b79a75edded30b7482a33d143942e05a7a3d52e45fde",
+      "resourceManifestSha256": "ce4c4a6e35f572e0d197ab1bff0a0e050b8eabb27ef6e5367a41169dd3465d0a",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "b0d48c6e311ba43d2e07a725910d009575b470a7ea3332729f55174803403060",
-          "byteCount": 23590
+          "sha256": "2465c97274e15c1ff91d0a49f926e2c5f9bb55302c33f828baf4f274e1f63e13",
+          "byteCount": 23900
         },
         {
           "path": "references/common-terraform-mistakes.md",
-          "sha256": "d6fdf43a9ebf61cf8425e69b06eca1a5dfab6b0aaf966dc6791f3d270eac3f22",
-          "byteCount": 21197
+          "sha256": "9c48a3f88998e0a469637b7186bd061729913a599305a6057f40b1a868391529",
+          "byteCount": 22037
         },
         {
           "path": "references/considerations-usage.md",
@@ -293,17 +352,17 @@
       "provider": "claude",
       "path": "claude/skills/tensor9-byoc",
       "resourceCount": 8,
-      "resourceManifestSha256": "96cd19aafec5d3421d7f424dcb1d2aad3e7ec0dd7da5a27f355e4f06bf7280ef",
+      "resourceManifestSha256": "ae689c6649c0a35cdee1f7fd0e1d68207ec4a1dd4db80a975a0f7bea2edec25d",
       "resources": [
         {
           "path": "SKILL.md",
-          "sha256": "1e4a44601c23a83a3312f4cc2578cf617043938eaf431b8292bc41479bca72bf",
-          "byteCount": 23772
+          "sha256": "dd9af878ca7fef32f3b0bde1258156b1314060d1e97e819352c315bab2206850",
+          "byteCount": 24082
         },
         {
           "path": "references/common-terraform-mistakes.md",
-          "sha256": "d6fdf43a9ebf61cf8425e69b06eca1a5dfab6b0aaf966dc6791f3d270eac3f22",
-          "byteCount": 21197
+          "sha256": "9c48a3f88998e0a469637b7186bd061729913a599305a6057f40b1a868391529",
+          "byteCount": 22037
         },
         {
           "path": "references/considerations-usage.md",

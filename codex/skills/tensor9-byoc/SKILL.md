@@ -277,6 +277,9 @@ complete compiled names rather than assuming a trailing separator.
   Put `${var.namespace}` at the start of the consuming resource's name argument (`bucket` on
   `aws_s3_bucket`, `domain` on `aws_cognito_user_pool_domain`), not in a variable default.
   Default `""` keeps direct deploys unchanged.
+- Trace dependent configuration, permissions and security rules before changing a name; inspect
+  [name-change consumers](references/common-terraform-mistakes.md#fixed-names-that-collide-across-installs-or-redeploys)
+  with a nonempty namespace as well as the empty default. Show dependent repairs separately.
 
 ```hcl
 #@namespace(max_size='32', delimiter='-')
