@@ -3,13 +3,13 @@
   "repository": "tensor9ine/tensor9-skills",
   "upstreamSource": {
     "repository": "tensor9ine/Prime",
-    "baseRevision": "c9b5f6789055bd311f48b6c4ba4ee3ad33b27345",
+    "baseRevision": "bf0e1922371045b46ebacaac124a5f02cce80056",
     "reviewedOverlay": "None: every packaged resource matches this published source revision byte for byte",
-    "upstreamPublicationStatus": "Published source checkpoint. Named preparation cases and the actual reviewed storage edit retain scoped acceptance. Final integrated metadata compilation and constructor check passed; final delivery review and qualification publication/readback remain pending.",
-    "retainedResourceBaseRevision": "3a59857c89c3e951d15f88fb28f508907b2568de"
+    "upstreamPublicationStatus": "Published source and qualification metadata for the independently accepted agreed preparation course; no broader runtime or deployment qualification.",
+    "retainedResourceBaseRevision": "c9b5f6789055bd311f48b6c4ba4ee3ad33b27345"
   },
   "qualification": {
-    "status": "InProgress",
+    "status": "QualifiedPreparation",
     "methodology": "Actual fresh native Codex and Claude Code sessions in measured isolated cloud-build cases; preparation qualification only, with historical identities and scoped evidence carry.",
     "nativeProviders": [
       {
@@ -111,19 +111,14 @@
         "limit": "The fresh Codex proposal did not output the retained answer-sheet body; earlier actual approval-reuse cases carry at their original package identities. The final Claude case read the full retained sheet before the reviewed edit."
       }
     ],
-    "remainingQualification": [
-      {
-        "scope": "Exact published source revision binding, final delivery/goal review and public qualification readback",
-        "status": "Pending"
-      }
-    ],
+    "remainingQualification": [],
     "localEvidenceScope": "Historical source checks remain seventy-one distinct Kotlin methods and a repeated nineteen-method integration subset at their recorded revisions, with PartialCoverage. New storage evidence is actual native proposals and matching edits, plus read-only syntax checks; no count union, blanket current-package rerun or whole-later-HEAD compilation is claimed.",
     "verificationSource": {
       "repository": "tensor9ine/Prime",
       "path": "src/main/kotlin/t9/ai/projects/active/plans/byocselfserve/ByocOnboardingSkillsQualification_2026_10_26.kt",
       "revisionSource": "upstreamSource.baseRevision"
     },
-    "sourceRuntimeEvidenceLimit": "The agreed preparation behaviors have scoped acceptance, including the actual reviewed storage edit and final integrated metadata compilation/constructor check. Exact published source binding, final delivery/goal review and publication readback remain pending. This does not qualify all Tensor9 BYOC workflows, real customer operation or deployment.",
+    "sourceRuntimeEvidenceLimit": "The original agreed preparation course has independent scoped acceptance. This is not qualification of all Tensor9 BYOC workflows, real customer operation or deployment. Final bookkeeping metadata receives its own check and exact source/readback identity; behavior and historical evidence retain their original scope.",
     "namedCaseEvidenceScope": "Historical preparation, privacy, installation and catalog cases retain their original package/fixture identities. Fresh affected shared-guide proposals and the same-session Claude edit qualify the changed instructions; unaffected accepted cases carry with explicit source reasoning.",
     "currentCatalogEvidence": {
       "scenarios": [
@@ -289,7 +284,50 @@
       "Catalog backend request correlation is incomplete; encrypted canonical TLS is not inspection of RPC bodies and Account credentials are not read-only catalog authority.",
       "Earlier privacy corrections and retrospective regression chronology remain documented; later passes do not rewrite failures.",
       "No Terraform validate/plan/apply, application startup, external Temporal runtime wiring, deployment or real customer commercial approval is established."
-    ]
+    ],
+    "acceptedCriteriaScope": {
+      "course": "Original agreed Tensor9 BYOC preparation skill qualification through actual Codex first, then Claude Code, with defects and affected fresh retakes",
+      "behavioralChildren": 12,
+      "deliveryChildren": 2,
+      "canonicalChildrenAccepted": 14,
+      "rootAccepted": true,
+      "assessmentBasis": "Two independent same-panel reviewers accepted actual source, native behavior, permitted effects, cleanup and publication evidence; no empty-test-list or self-certification inference.",
+      "broaderByocRuntimeOrDeploymentQualified": false
+    },
+    "finalGoalReview": {
+      "status": "AchievedForAgreedPreparationCourse",
+      "reviewers": 2,
+      "requiredFindings": 0,
+      "evidenceRoleFollowupSha256": "be85e991a57760719755aaddf37425f4b10348e45391ff86cd8bd8a6cff718fd",
+      "securityRoleFollowupSha256": "9a6b5d904fc8fa8d55e26d333b2ed7fb23996e5747ba0741a0312c30e588d577",
+      "provenance": "The same evidence and security review roles inspected recorded historical cases plus the actual corrected proposal/edit, source check, source/public resource identities, full public readback and owned native cleanup. Underlying reviewer model identity was not independently introspected.",
+      "priorPartialAssessmentsRetained": true
+    },
+    "qualifiedDeliveryEvidence": {
+      "firstQualifiedSourceRevision": "c9b5f6789055bd311f48b6c4ba4ee3ad33b27345",
+      "firstQualifiedSkillsRevision": "f5f66277295c7a457c8c65efcc264d9e090f9f32",
+      "publicFilesReadBack": 24,
+      "sourceResourcesVerified": 16,
+      "publicationReceiptSha256": "079a3b6af17df5c8980009ff6ceae97a4a100672de54fdaacebbe6c8ddbd533d",
+      "ownedNativeCleanupSha256": "6fac5aeae2f25ed78d2a635e34e810e45d34dabf83757713d50ef3599aeb4b46",
+      "scope": "Actual native-case credential, container, network, temporary profile and lease retirement completed; unrelated source, caches and work were preserved."
+    },
+    "completionMetadataFollowup": {
+      "status": "Passed",
+      "sourceBaseRevision": "c9b5f6789055bd311f48b6c4ba4ee3ad33b27345",
+      "scope": "Actual main, tutorial and test-source compilation plus one repeated owning constructor test on the three final metadata changes and nineteen frozen source inputs. This is completion-record verification, not another native behavior case or a union with earlier seventy-one/nineteen counts.",
+      "actualMainTutorialAndTestSourcesCompiled": true,
+      "constructorTests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "result": "BUILD SUCCESSFUL in 3m 12s",
+      "receiptSha256": "a1a2f13d1e12edcbc92c123becd74a43b5ba07604d9d09e6e4315273c67489e0",
+      "frozenInputs": 19,
+      "freshXmlSha256": "5e963ba7c66f8188c2c03c203eff634d03e772786e9ca46edbc9d521ac6f5a5f",
+      "prior71Or19Replayed": false,
+      "coverageRerun": false
+    }
   },
   "catalog": {
     "schemaVersion": 1,
